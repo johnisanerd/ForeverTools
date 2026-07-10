@@ -1,0 +1,14 @@
+startCommand:
+  type: stdio
+  configSchema:
+    type: object
+    properties:
+      apiKey:
+        type: string
+        description: "AI/ML API key from aimlapi.com (free tier: 10M tokens/month, 200+ models). FetchUrlText tool works without a key."
+    required: []
+  commandFunction: |-
+    (config) => ({
+      command: "forevertools-mcp",
+      env: config.apiKey ? { AIMLAPI_KEY: config.apiKey } : {}
+    })

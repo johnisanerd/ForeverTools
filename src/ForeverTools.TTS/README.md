@@ -110,11 +110,11 @@ Get your key at [https://aimlapi.com?via=forevertools](https://aimlapi.com?via=f
 | **ForeverTools.STT** | Speech-to-Text using Whisper (transcription, subtitles, language detection) | [![NuGet](https://img.shields.io/nuget/v/ForeverTools.STT.svg)](https://www.nuget.org/packages/ForeverTools.STT) |
 | **ForeverTools.Summarize** | AI-powered text summarization (TL;DR, bullet points, executive summaries) | [![NuGet](https://img.shields.io/nuget/v/ForeverTools.Summarize.svg)](https://www.nuget.org/packages/ForeverTools.Summarize) |
 | **ForeverTools.Translate** | AI-powered translation with 100+ languages (GPT-4, Claude) | [![NuGet](https://img.shields.io/nuget/v/ForeverTools.Translate.svg)](https://www.nuget.org/packages/ForeverTools.Translate) |
-| **ForeverTools.CodeGen** | AI-powered code generation, refactoring, and explanation | *Coming soon* |
-| **ForeverTools.ContentMod** | AI content moderation — detect toxicity, hate speech, adult content | *Coming soon* |
-| **ForeverTools.EmailAI** | AI email composition, reply drafting, summarization, and classification | *Coming soon* |
-| **ForeverTools.InvoiceParser** | AI-powered invoice and receipt data extraction | *Coming soon* |
-| **ForeverTools.Sentiment** | AI sentiment analysis with emotion detection | *Coming soon* |
+| **ForeverTools.CodeGen** | AI-powered code generation, refactoring, and explanation | [![NuGet](https://img.shields.io/nuget/v/ForeverTools.CodeGen.svg)](https://www.nuget.org/packages/ForeverTools.CodeGen) |
+| **ForeverTools.ContentMod** | AI content moderation — detect toxicity, hate speech, adult content | [![NuGet](https://img.shields.io/nuget/v/ForeverTools.ContentMod.svg)](https://www.nuget.org/packages/ForeverTools.ContentMod) |
+| **ForeverTools.EmailAI** | AI email composition, reply drafting, summarization, and classification | [![NuGet](https://img.shields.io/nuget/v/ForeverTools.EmailAI.svg)](https://www.nuget.org/packages/ForeverTools.EmailAI) |
+| **ForeverTools.InvoiceParser** | AI-powered invoice and receipt data extraction | [![NuGet](https://img.shields.io/nuget/v/ForeverTools.InvoiceParser.svg)](https://www.nuget.org/packages/ForeverTools.InvoiceParser) |
+| **ForeverTools.Sentiment** | AI sentiment analysis with emotion detection | [![NuGet](https://img.shields.io/nuget/v/ForeverTools.Sentiment.svg)](https://www.nuget.org/packages/ForeverTools.Sentiment) |
 
 ## License
 

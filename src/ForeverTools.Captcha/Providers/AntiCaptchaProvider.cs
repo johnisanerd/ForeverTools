@@ -6,7 +6,7 @@ namespace ForeverTools.Captcha.Providers;
 
 /// <summary>
 /// Anti-Captcha.com captcha solving provider.
-/// Get your API key at: https://anti-captcha.com
+/// Get your API key at: https://getcaptchasolution.com/03pywzqopu
 /// </summary>
 public class AntiCaptchaProvider : ICaptchaSolver
 {
@@ -34,7 +34,7 @@ public class AntiCaptchaProvider : ICaptchaSolver
     public AntiCaptchaProvider(string apiKey, CaptchaOptions? options = null, HttpClient? httpClient = null)
     {
         if (string.IsNullOrWhiteSpace(apiKey))
-            throw new ArgumentException("API key is required. Get one at https://anti-captcha.com", nameof(apiKey));
+            throw new ArgumentException("API key is required. Get one at https://getcaptchasolution.com/03pywzqopu", nameof(apiKey));
 
         _apiKey = apiKey;
         _options = options ?? new CaptchaOptions();

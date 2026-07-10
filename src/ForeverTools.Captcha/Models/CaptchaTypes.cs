@@ -47,7 +47,7 @@ public enum CaptchaProvider
     /// <summary>CapSolver.com - https://capsolver.com</summary>
     CapSolver,
 
-    /// <summary>Anti-Captcha.com - https://anti-captcha.com</summary>
+    /// <summary>Anti-Captcha.com - https://getcaptchasolution.com/03pywzqopu</summary>
     AntiCaptcha
 }
 

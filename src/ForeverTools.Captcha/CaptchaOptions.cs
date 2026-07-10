@@ -26,7 +26,7 @@ public class CaptchaOptions
     public string? CapSolverApiKey { get; set; }
 
     /// <summary>
-    /// API key for Anti-Captcha. Get one at https://anti-captcha.com
+    /// API key for Anti-Captcha. Get one at https://getcaptchasolution.com/03pywzqopu
     /// </summary>
     public string? AntiCaptchaApiKey { get; set; }
 
