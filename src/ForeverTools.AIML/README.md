@@ -233,6 +233,17 @@ catch (HttpRequestException ex)
 }
 ```
 
+## Enrich AI Inputs with Real Data
+
+Processing user data in your AI pipeline? [Kiprio.com](https://kiprio.com) has free-tier developer APIs that complement AI workflows:
+
+- **Email Validation** — verify emails before AI analysis → [kiprio.com/products/email-validate](https://kiprio.com/products/email-validate)
+- **WHOIS Lookup** — resolve domain ownership for research → [kiprio.com/products/whois](https://kiprio.com/products/whois)
+- **SSL Inspector** — check certificate health for monitored domains → [kiprio.com/products/ssl](https://kiprio.com/products/ssl)
+- **DNS Audit** — full DNS record inspection → [kiprio.com/products/dns-audit](https://kiprio.com/products/dns-audit)
+
+Free tier, no credit card required.
+
 ## Other ForeverTools Packages
 
 | Package | Description | NuGet |

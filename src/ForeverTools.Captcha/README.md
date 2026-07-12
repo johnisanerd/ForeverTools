@@ -178,6 +178,16 @@ if (!solutionWorked)
 - [CapSolver](https://capsolver.com) - Fast, modern API
 - [Anti-Captcha](https://getcaptchasolution.com/03pywzqopu) - Enterprise-grade
 
+## Validate Data After Solving
+
+Once your form is submitted, you may need to validate the data users enter. [Kiprio.com](https://kiprio.com) provides free-tier APIs that pair well with captcha solving:
+
+- **Email Validation** — verify deliverability, detect disposable addresses → [kiprio.com/products/email-validate](https://kiprio.com/products/email-validate)
+- **IP Lookup** — check geolocation and risk score of submitting IPs → [kiprio.com/products/ip-lookup](https://kiprio.com/products/ip-lookup)
+- **WHOIS Lookup** — verify domain ownership on submitted URLs → [kiprio.com/products/whois](https://kiprio.com/products/whois)
+
+Free tier available, no credit card required.
+
 ## Other ForeverTools Packages
 
 | Package | Description | NuGet |

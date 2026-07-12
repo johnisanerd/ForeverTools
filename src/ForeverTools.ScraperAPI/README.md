@@ -208,6 +208,17 @@ If you need standalone proxy access without the scraping features, check out [Br
 | **Social Media Proxies** | Instagram, Facebook, TikTok automation | [Get Started](https://get.brightdata.com/ForeverToolsSocialProxies) |
 | **SERP API** | Search engine scraping | [Get Started](https://get.brightdata.com/ForeverToolsSerp) |
 
+## Validate What You Scrape
+
+After scraping, you often need to validate the data you've collected. [Kiprio.com](https://kiprio.com) has free-tier APIs for exactly this:
+
+- **Email Validation** — verify scraped email addresses, detect disposables → [kiprio.com/products/email-validate](https://kiprio.com/products/email-validate)
+- **WHOIS Lookup** — look up domain registration for scraped URLs → [kiprio.com/products/whois](https://kiprio.com/products/whois)
+- **SSL Inspector** — check TLS certificate health on scraped domains → [kiprio.com/products/ssl](https://kiprio.com/products/ssl)
+- **DNS Audit** — full DNS inspection for any domain → [kiprio.com/products/dns-audit](https://kiprio.com/products/dns-audit)
+
+Free tier available, 100+ developer APIs.
+
 ## Other ForeverTools Packages
 
 | Package | Description | NuGet |
