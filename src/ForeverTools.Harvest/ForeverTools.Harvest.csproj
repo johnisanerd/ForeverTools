@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net8.0;net6.0</TargetFrameworks>
+    <LangVersion>latest</LangVersion>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <NoWarn>$(NoWarn);CS1591</NoWarn>
+
+    <!-- PoC only — do NOT publish until Chris approves (task #6582) -->
+    <PackageId>ForeverTools.Harvest</PackageId>
+    <Version>0.1.0-preview</Version>
+    <Authors>ForeverTools</Authors>
+    <Description>Opinionated .NET scraping pipeline: proxy → fetch → captcha → parse. Composes ForeverTools.Proxy, ScraperAPI, Captcha into one fluent API.</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ForeverTools.Captcha\ForeverTools.Captcha.csproj" />
+    <ProjectReference Include="..\ForeverTools.Proxy\ForeverTools.Proxy.csproj" />
+    <ProjectReference Include="..\ForeverTools.ScraperAPI\ForeverTools.ScraperAPI.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="HtmlAgilityPack" Version="1.11.65" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.0.0" />
+  </ItemGroup>
+
+</Project>

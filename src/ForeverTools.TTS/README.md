@@ -124,3 +124,5 @@ MIT License - see LICENSE file for details.
 
 - [GitHub Organization](https://github.com/ForeverTools)
 - [NuGet Profile](https://www.nuget.org/profiles/ForeverTools)
+- [Star on GitHub](https://github.com/ForeverTools/ForeverTools) — help us grow
+- [Kiprio](https://kiprio.com) — free developer APIs (DNS, email validation, geocoding, OCR, IP & SSL)
