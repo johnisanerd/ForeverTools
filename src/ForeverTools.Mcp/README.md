@@ -87,3 +87,9 @@ Browse the complete collection at [github.com/ForeverTools/ForeverTools](https:/
 ## License
 
 MIT — [github.com/ForeverTools/ForeverTools](https://github.com/ForeverTools/ForeverTools)
+
+## Links
+
+- [Star on GitHub](https://github.com/ForeverTools/ForeverTools) — help us grow
+- [Kiprio](https://kiprio.com) — free developer APIs (DNS, email validation, geocoding, OCR, IP & SSL)
+- [kiprio-mcp](https://pypi.org/project/kiprio-mcp/) — MCP server for Kiprio APIs (Claude Code, Claude Desktop)
