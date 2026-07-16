@@ -6,23 +6,38 @@
 
 **Use AI directly inside Claude Code** — summarize, translate, OCR, TTS, sentiment analysis, image generation, web fetch and more, without leaving your editor.
 
+### Quick Start (3 steps)
+
 ```bash
-# Install the MCP server
+# 1. Install the MCP server
 dotnet tool install -g ForeverTools.Mcp
 
-# Add to Claude Code
+# 2. Get a free API key at https://aimlapi.com/?via=forevertools
+#    (200+ AI models — GPT-4, Claude, Llama, Gemini — free tier included)
+
+# 3. Add to Claude Code with your key
+claude mcp add forevertools --env AIMLAPI_KEY=your-key-here -- forevertools-mcp
+```
+
+Restart Claude Code and the tools are ready. No subscription, no credit card.
+
+**What you get:** 13 AI tools inside Claude Code (and any MCP-compatible client).
+
+```
+summarize      • translate     • sentiment      • ocr
+speech_to_text • text_to_speech • image_generate • web_fetch
+keyword_extract • markdown_to_html • json_format • code_explain • paraphrase
+```
+
+**Alternative setup** — set the environment variable in your shell profile instead:
+
+```bash
+# ~/.bashrc or ~/.zshrc
+export AIMLAPI_KEY=your-key-here
+
+# Then add the server (no --env needed)
 claude mcp add forevertools -- forevertools-mcp
 ```
-
-**What it does:** Adds 13 AI tools to Claude Code (and any MCP-compatible client). Bring your own free [AI/ML API key](https://aimlapi.com) — no subscription required.
-
-```
-Tools: summarize • translate • sentiment • ocr • speech_to_text • text_to_speech
-       image_generate • web_fetch • keyword_extract • markdown_to_html
-       json_format • code_explain • paraphrase
-```
-
-> Free API key: [aimlapi.com](https://aimlapi.com) gives free access to 200+ models including GPT-4, Claude, Llama, Gemini.
 
 ---
 

@@ -18,9 +18,13 @@ builder.Services
     .WithTools<SentimentTool>()
     .WithTools<OcrTool>()
     .WithTools<SttTool>()
+    .WithTools<TtsTool>()
     .WithTools<ImageGenTool>()
     .WithTools<WebTool>()
     .WithTools<MarkdownTool>()
-    .WithTools<JsonTool>();
+    .WithTools<JsonTool>()
+    .WithTools<KeywordTool>()
+    .WithTools<ParaphraseTool>()
+    .WithTools<CodeExplainTool>();
 
 await builder.Build().RunAsync();
