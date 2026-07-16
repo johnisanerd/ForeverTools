@@ -41,6 +41,26 @@ claude mcp add forevertools -- forevertools-mcp
 
 ---
 
+## kiprio-mcp — Python MCP Server
+
+**23 production APIs for AI assistants** — email validation, DNS/WHOIS, SSL inspection, IP lookup, FX rates, GPU pricing, and more. Works with Claude, Cursor, Windsurf, and any MCP-compatible client. No third-party API keys required.
+
+[![PyPI](https://img.shields.io/pypi/v/kiprio-mcp)](https://pypi.org/project/kiprio-mcp/)
+[![Downloads](https://img.shields.io/pypi/dm/kiprio-mcp)](https://pypi.org/project/kiprio-mcp/)
+[![Python](https://img.shields.io/pypi/pyversions/kiprio-mcp)](https://pypi.org/project/kiprio-mcp/)
+
+```bash
+# Install
+pip install kiprio-mcp
+
+# Add to Claude Code
+claude mcp add kiprio -- kiprio-mcp
+```
+
+Free tier included. Full API docs and pricing at [kiprio.com](https://kiprio.com).
+
+---
+
 ## Packages
 
 | Package | Description | NuGet |
